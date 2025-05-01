@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ABM de Usuarios</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+JP:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Formulario A.B.M de Usuario</h1>
+
+    <form>
+      <label for="nombre">Nombre Apellido</label>
+      <input type="text" id="nombre" placeholder="Ej: Hernan Rodriguez" />
+
+      <P></P><label for="Fecha">Fecha de nacimiento</label>
+      <input type="date" id="Fecha" placeholder="Ej: dd/mm/aaaa" />
+      </P>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Ej: hernan@gmail.com" />
+
+      <button type="button" class="btn-add">Agregar Usuario</button>
+    </form>
+
+    <h2>Usuarios Registrados</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Email</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Hernan Rodriguez</td>
+          <td>hernan@gmail.com</td>
+          <td>
+            <button class="btn-edit">Editar</button>
+            <button class="btn-delete">Eliminar</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Alex Vidotto</td>
+          <td>Vidotto@gmail.com</td>
+          <td>
+            <button class="btn-edit">Editar</button>
+            <button class="btn-delete">Eliminar</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Arzamendia Richard</td>
+          <td>Martin@gmail.com</td>
+          <td>
+            <button class="btn-edit">Editar</button>
+            <button class="btn-delete">Eliminar</button>
+          </td>
+        </tr>
+        <td>Martin Varela</td>
+        <td>Martin@gmail.com</td>
+        <td>
+          <button class="btn-edit">Editar</button>
+          <button class="btn-delete">Eliminar</button>
+        </td>
+      </tbody>
+    </table>
+  </div>
+</body>
+
+</html>

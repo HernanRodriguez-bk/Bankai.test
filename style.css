@@ -1,0 +1,102 @@
+/* styles.css */
+body {
+    background-image: url(img/imgfondo.png );
+    background-size: cover;
+    font-family: cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    margin: 0;
+    padding: 10px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 150px;
+    box-shadow: 0 4px 8px white;
+    border-radius: 10px;
+}
+
+h1,
+h2 {
+    font-family:cursive;
+    text-align: center;
+    color: white;
+}
+
+form {
+    margin-bottom: 30px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color:white;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"] {
+    width: 25%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid rgb(92, 5, 5) !important;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(92, 5, 5) !important;
+    color:white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    padding: 20px;
+    text-align: left;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+th {
+    color:white;
+}
+
+button.edit-btn {
+    background-color:white;
+    margin-right: 5px;
+}
+
+button.delete-btn {
+    background-color: #f44336;
+}
+
+button.edit-btn:hover {
+    background-color:white;
+}
+
+button.delete-btn:hover {
+    background-color: #e53935;
+}
